@@ -100,9 +100,7 @@
 			children = (
 				E6783D91215E3A6100042193 /* AppDelegate.swift */,
 				E6783D93215E3A6100042193 /* ViewController.swift */,
-				E6783D95215E3A6100042193 /* Main.storyboard */,
-				E6783D98215E3A6300042193 /* Assets.xcassets */,
-				E6783D9A215E3A6300042193 /* LaunchScreen.storyboard */,
+				E6FEEEF5215E3D4100A00FBE /* Stiryboard & Assets */,
 				E6783D9D215E3A6300042193 /* Info.plist */,
 			);
 			path = Jaumo;
@@ -115,6 +113,16 @@
 				E6783DA8215E3A6300042193 /* Info.plist */,
 			);
 			path = JaumoTests;
+			sourceTree = "<group>";
+		};
+		E6FEEEF5215E3D4100A00FBE /* Stiryboard & Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E6783D98215E3A6300042193 /* Assets.xcassets */,
+				E6783D95215E3A6100042193 /* Main.storyboard */,
+				E6783D9A215E3A6300042193 /* LaunchScreen.storyboard */,
+			);
+			path = "Stiryboard & Assets";
 			sourceTree = "<group>";
 		};
 		EEAB75B99EE7AD6CF4EFB106 /* Pods */ = {
