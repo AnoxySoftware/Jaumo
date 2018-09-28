@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3249D56E031E61902ADBFE4D /* Pods_JaumoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE383D4B8BDA0FCFE4543C3E /* Pods_JaumoTests.framework */; };
+		7A6FCD2276FF65FA95287865 /* Pods_Jaumo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CEA9B375AC08B91F5CD680B /* Pods_Jaumo.framework */; };
 		E6783D92215E3A6100042193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6783D91215E3A6100042193 /* AppDelegate.swift */; };
 		E6783D94215E3A6100042193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6783D93215E3A6100042193 /* ViewController.swift */; };
 		E6783D97215E3A6100042193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6783D95215E3A6100042193 /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7CEA9B375AC08B91F5CD680B /* Pods_Jaumo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jaumo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9455338EA80A67BBE396D10E /* Pods-Jaumo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jaumo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jaumo/Pods-Jaumo.debug.xcconfig"; sourceTree = "<group>"; };
+		982D0FDD457E0671E4037A5F /* Pods-JaumoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaumoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JaumoTests/Pods-JaumoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		995EAAFF65137D4EC83A9B31 /* Pods-Jaumo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jaumo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jaumo/Pods-Jaumo.release.xcconfig"; sourceTree = "<group>"; };
+		D142B834B03C1ADB1D982990 /* Pods-JaumoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaumoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JaumoTests/Pods-JaumoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E6783D8E215E3A6100042193 /* Jaumo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jaumo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6783D91215E3A6100042193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6783D93215E3A6100042193 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		E6783DA2215E3A6300042193 /* JaumoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaumoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6783DA6215E3A6300042193 /* JaumoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaumoTests.swift; sourceTree = "<group>"; };
 		E6783DA8215E3A6300042193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE383D4B8BDA0FCFE4543C3E /* Pods_JaumoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JaumoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6FCD2276FF65FA95287865 /* Pods_Jaumo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3249D56E031E61902ADBFE4D /* Pods_JaumoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25526288BEE9E34067659157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CEA9B375AC08B91F5CD680B /* Pods_Jaumo.framework */,
+				FE383D4B8BDA0FCFE4543C3E /* Pods_JaumoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E6783D85215E3A6100042193 = {
 			isa = PBXGroup;
 			children = (
 				E6783D90215E3A6100042193 /* Jaumo */,
 				E6783DA5215E3A6300042193 /* JaumoTests */,
 				E6783D8F215E3A6100042193 /* Products */,
+				EEAB75B99EE7AD6CF4EFB106 /* Pods */,
+				25526288BEE9E34067659157 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +117,17 @@
 			path = JaumoTests;
 			sourceTree = "<group>";
 		};
+		EEAB75B99EE7AD6CF4EFB106 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9455338EA80A67BBE396D10E /* Pods-Jaumo.debug.xcconfig */,
+				995EAAFF65137D4EC83A9B31 /* Pods-Jaumo.release.xcconfig */,
+				982D0FDD457E0671E4037A5F /* Pods-JaumoTests.debug.xcconfig */,
+				D142B834B03C1ADB1D982990 /* Pods-JaumoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6783DAB215E3A6300042193 /* Build configuration list for PBXNativeTarget "Jaumo" */;
 			buildPhases = (
+				AD8AAADBB8E08164EC5FDF44 /* [CP] Check Pods Manifest.lock */,
 				E6783D8A215E3A6100042193 /* Sources */,
 				E6783D8B215E3A6100042193 /* Frameworks */,
 				E6783D8C215E3A6100042193 /* Resources */,
+				702F0E9476B41D7902B76670 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6783DAE215E3A6300042193 /* Build configuration list for PBXNativeTarget "JaumoTests" */;
 			buildPhases = (
+				219B2D4EAB924592E3D28848 /* [CP] Check Pods Manifest.lock */,
 				E6783D9E215E3A6300042193 /* Sources */,
 				E6783D9F215E3A6300042193 /* Frameworks */,
 				E6783DA0215E3A6300042193 /* Resources */,
@@ -191,6 +226,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		219B2D4EAB924592E3D28848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JaumoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		702F0E9476B41D7902B76670 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Jaumo/Pods-Jaumo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jaumo/Pods-Jaumo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD8AAADBB8E08164EC5FDF44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jaumo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E6783D8A215E3A6100042193 /* Sources */ = {
@@ -358,11 +454,13 @@
 		};
 		E6783DAC215E3A6300042193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9455338EA80A67BBE396D10E /* Pods-Jaumo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9KT4T25TK;
 				INFOPLIST_FILE = Jaumo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,17 +468,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anoxy.Jaumo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E6783DAD215E3A6300042193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995EAAFF65137D4EC83A9B31 /* Pods-Jaumo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9KT4T25TK;
 				INFOPLIST_FILE = Jaumo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,12 +488,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anoxy.Jaumo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		E6783DAF215E3A6300042193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982D0FDD457E0671E4037A5F /* Pods-JaumoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +516,7 @@
 		};
 		E6783DB0215E3A6300042193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D142B834B03C1ADB1D982990 /* Pods-JaumoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
