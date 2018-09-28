@@ -32,7 +32,7 @@ class PanDismissableVC : UIViewController {
             interactor.hasStarted = true
             dismiss(animated: true, completion: nil)
         case .changed:
-            interactor.shouldFinish = progress > 0.4
+            interactor.shouldFinish = progress > 0.3
             interactor.update(progress)
         case .cancelled:
             interactor.hasStarted = false

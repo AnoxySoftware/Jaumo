@@ -28,6 +28,7 @@
 		E6FEEF13215E780900A00FBE /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF12215E780900A00FBE /* Birthday.swift */; };
 		E6FEEF15215E781E00A00FBE /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF14215E781D00A00FBE /* CreditCard.swift */; };
 		E6FEEF17215E7D5F00A00FBE /* LoadingViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF16215E7D5F00A00FBE /* LoadingViewExt.swift */; };
+		E6FEEF19215E92B000A00FBE /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF18215E92B000A00FBE /* ThemeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		E6FEEF12215E780900A00FBE /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 		E6FEEF14215E781D00A00FBE /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 		E6FEEF16215E7D5F00A00FBE /* LoadingViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewExt.swift; sourceTree = "<group>"; };
+		E6FEEF18215E92B000A00FBE /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		FE383D4B8BDA0FCFE4543C3E /* Pods_JaumoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JaumoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				E6783D91215E3A6100042193 /* AppDelegate.swift */,
+				E6FEEF18215E92B000A00FBE /* ThemeManager.swift */,
 				E6783D9D215E3A6300042193 /* Info.plist */,
 				E6FEEEF9215E48D900A00FBE /* Network */,
 				E6FEEEFD215E4A0200A00FBE /* Helpers */,
@@ -158,8 +161,8 @@
 			children = (
 				E6FEEF08215E5B4300A00FBE /* Animation controllers */,
 				E6FEEEFC215E49CA00A00FBE /* Cells & Views */,
+				E6FEEF1A215E975E00A00FBE /* ViewModels */,
 				E6783D93215E3A6100042193 /* ProfileViewController.swift */,
-				E6FEEF0D215E769200A00FBE /* ProfileVM.swift */,
 				E6FEEEF6215E484F00A00FBE /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
@@ -218,6 +221,14 @@
 				E6FEEF14215E781D00A00FBE /* CreditCard.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E6FEEF1A215E975E00A00FBE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEEF0D215E769200A00FBE /* ProfileVM.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		EEAB75B99EE7AD6CF4EFB106 /* Pods */ = {
@@ -407,6 +418,7 @@
 				E6FEEF13215E780900A00FBE /* Birthday.swift in Sources */,
 				E6FEEF17215E7D5F00A00FBE /* LoadingViewExt.swift in Sources */,
 				E6FEEF0E215E769200A00FBE /* ProfileVM.swift in Sources */,
+				E6FEEF19215E92B000A00FBE /* ThemeManager.swift in Sources */,
 				E6FEEF0C215E65F700A00FBE /* GridCell.swift in Sources */,
 				E6783D94215E3A6100042193 /* ProfileViewController.swift in Sources */,
 				E6FEEF03215E4B4200A00FBE /* Interactor.swift in Sources */,

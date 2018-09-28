@@ -42,7 +42,14 @@ class ProfileViewController: PanDismissablePresenterVC, LoadingViewPresentable {
             }
         }, parameters: parameters)
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "presentProfile", let detailVC = segue.destination as? DetailViewController, let selectedIndexPath = self.collectionView.indexPathsForSelectedItems?.first {
+            let cellData = profileVM.dataForIndexPath(indexPath: selectedIndexPath)
+            detailVC.model = cellData
+        }
+        super.prepare(for: segue, sender: sender)
+    }
 }
 
 extension ProfileViewController : UICollectionViewDataSource, UICollectionViewDelegate {

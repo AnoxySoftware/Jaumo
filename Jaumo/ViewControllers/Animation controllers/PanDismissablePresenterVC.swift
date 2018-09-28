@@ -15,6 +15,9 @@ class PanDismissablePresenterVC: UIViewController, UIViewControllerTransitioning
         if let destinationViewController = segue.destination as? PanDismissableVC {
             destinationViewController.transitioningDelegate = self
             destinationViewController.interactor = interactor
+            UIView.animate(withDuration: 0.3) {
+                self.view.alpha = 0.0
+            }
         }
     }
     

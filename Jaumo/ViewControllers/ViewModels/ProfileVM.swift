@@ -13,6 +13,7 @@ protocol ProfilePresentable {
     var name: String { get }
     var photoURLString: String { get }
     var age: String { get }
+    var location: String { get }
 }
 
 class ProfileVM : NSObject {
@@ -22,11 +23,13 @@ class ProfileVM : NSObject {
         let name: String
         let photoURLString: String
         let age: String
+        let location: String
         
         init(withProfile model: ProfileElement) {
-            self.name = model.name
+            self.name = "\(model.name) \(model.surname)"
             self.photoURLString = model.photo
             self.age = String(format: NSLocalizedString("%i years", comment: "Profile Age"), model.age)
+            self.location = model.region
         }
     }
     
