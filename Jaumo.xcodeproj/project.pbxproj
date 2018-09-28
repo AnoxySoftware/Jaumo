@@ -21,6 +21,13 @@
 		E6FEEF02215E4B4200A00FBE /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF00215E4B4200A00FBE /* SwipeAnimator.swift */; };
 		E6FEEF03215E4B4200A00FBE /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF01215E4B4200A00FBE /* Interactor.swift */; };
 		E6FEEF06215E4EE500A00FBE /* PanDismissablePresenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF05215E4EE500A00FBE /* PanDismissablePresenterVC.swift */; };
+		E6FEEF0A215E64FC00A00FBE /* GridFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF09215E64FC00A00FBE /* GridFlowLayout.swift */; };
+		E6FEEF0C215E65F700A00FBE /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF0B215E65F700A00FBE /* GridCell.swift */; };
+		E6FEEF0E215E769200A00FBE /* ProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF0D215E769200A00FBE /* ProfileVM.swift */; };
+		E6FEEF11215E77F100A00FBE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF10215E77F100A00FBE /* Profile.swift */; };
+		E6FEEF13215E780900A00FBE /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF12215E780900A00FBE /* Birthday.swift */; };
+		E6FEEF15215E781E00A00FBE /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF14215E781D00A00FBE /* CreditCard.swift */; };
+		E6FEEF17215E7D5F00A00FBE /* LoadingViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF16215E7D5F00A00FBE /* LoadingViewExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,13 @@
 		E6FEEF00215E4B4200A00FBE /* SwipeAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeAnimator.swift; sourceTree = "<group>"; };
 		E6FEEF01215E4B4200A00FBE /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		E6FEEF05215E4EE500A00FBE /* PanDismissablePresenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanDismissablePresenterVC.swift; sourceTree = "<group>"; };
+		E6FEEF09215E64FC00A00FBE /* GridFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridFlowLayout.swift; sourceTree = "<group>"; };
+		E6FEEF0B215E65F700A00FBE /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		E6FEEF0D215E769200A00FBE /* ProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVM.swift; sourceTree = "<group>"; };
+		E6FEEF10215E77F100A00FBE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		E6FEEF12215E780900A00FBE /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		E6FEEF14215E781D00A00FBE /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		E6FEEF16215E7D5F00A00FBE /* LoadingViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewExt.swift; sourceTree = "<group>"; };
 		FE383D4B8BDA0FCFE4543C3E /* Pods_JaumoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JaumoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,6 +159,7 @@
 				E6FEEF08215E5B4300A00FBE /* Animation controllers */,
 				E6FEEEFC215E49CA00A00FBE /* Cells & Views */,
 				E6783D93215E3A6100042193 /* ProfileViewController.swift */,
+				E6FEEF0D215E769200A00FBE /* ProfileVM.swift */,
 				E6FEEEF6215E484F00A00FBE /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
@@ -153,6 +168,7 @@
 		E6FEEEF9215E48D900A00FBE /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				E6FEEF0F215E769C00A00FBE /* Models */,
 				E6FEEEFA215E48EB00A00FBE /* NetworkManager.swift */,
 			);
 			path = Network;
@@ -161,6 +177,7 @@
 		E6FEEEFC215E49CA00A00FBE /* Cells & Views */ = {
 			isa = PBXGroup;
 			children = (
+				E6FEEF0B215E65F700A00FBE /* GridCell.swift */,
 			);
 			path = "Cells & Views";
 			sourceTree = "<group>";
@@ -169,6 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				E6FEEF04215E4B4600A00FBE /* Animations */,
+				E6FEEF09215E64FC00A00FBE /* GridFlowLayout.swift */,
+				E6FEEF16215E7D5F00A00FBE /* LoadingViewExt.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -189,6 +208,16 @@
 				E6FEEF05215E4EE500A00FBE /* PanDismissablePresenterVC.swift */,
 			);
 			path = "Animation controllers";
+			sourceTree = "<group>";
+		};
+		E6FEEF0F215E769C00A00FBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEEF10215E77F100A00FBE /* Profile.swift */,
+				E6FEEF12215E780900A00FBE /* Birthday.swift */,
+				E6FEEF14215E781D00A00FBE /* CreditCard.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		EEAB75B99EE7AD6CF4EFB106 /* Pods */ = {
@@ -368,10 +397,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6FEEEFB215E48EB00A00FBE /* NetworkManager.swift in Sources */,
+				E6FEEF11215E77F100A00FBE /* Profile.swift in Sources */,
+				E6FEEF15215E781E00A00FBE /* CreditCard.swift in Sources */,
 				E6FEEF02215E4B4200A00FBE /* SwipeAnimator.swift in Sources */,
 				E6FEEF06215E4EE500A00FBE /* PanDismissablePresenterVC.swift in Sources */,
+				E6FEEF0A215E64FC00A00FBE /* GridFlowLayout.swift in Sources */,
 				E6FEEEFF215E4AE400A00FBE /* PanDismissableVC.swift in Sources */,
 				E6FEEEF7215E484F00A00FBE /* DetailViewController.swift in Sources */,
+				E6FEEF13215E780900A00FBE /* Birthday.swift in Sources */,
+				E6FEEF17215E7D5F00A00FBE /* LoadingViewExt.swift in Sources */,
+				E6FEEF0E215E769200A00FBE /* ProfileVM.swift in Sources */,
+				E6FEEF0C215E65F700A00FBE /* GridCell.swift in Sources */,
 				E6783D94215E3A6100042193 /* ProfileViewController.swift in Sources */,
 				E6FEEF03215E4B4200A00FBE /* Interactor.swift in Sources */,
 				E6783D92215E3A6100042193 /* AppDelegate.swift in Sources */,

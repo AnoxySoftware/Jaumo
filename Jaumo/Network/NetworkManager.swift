@@ -8,9 +8,44 @@
 
 import Alamofire
 
+enum ConfigurationEnvironment : Int {
+    case production
+    case sandbox
+}
+
 class NetworkManager: NSObject {
+    
     static let shared = NetworkManager()
+    
     typealias RequestCompletion = (_ json: Data?,_ error: Error?) -> Void
+    
+    private var apiBaseURL : String = ""
+    
+    var activeConfiguration: ConfigurationEnvironment {
+        didSet {
+            self.setConfig(self.activeConfiguration)
+        }
+    }
+    
+    private func setConfig(_ env:ConfigurationEnvironment) {
+        switch env {
+        case .production:
+            apiBaseURL = "https://uinames.com/api/"
+        case .sandbox:
+            //in this test we don't have a sandbox serer, so using same as production
+            apiBaseURL = "https://uinames.com/api/"
+        }
+    }
+    
+    override init() {
+        #if RELEASE
+        self.activeConfiguration = ConfigurationEnvironment.production
+        #else
+        self.activeConfiguration = ConfigurationEnvironment.sandbox
+        #endif
+        super.init()
+        self.setConfig(self.activeConfiguration)
+    }
     
     private let sessionManager: SessionManager = {
         let configuration = URLSessionConfiguration.default
@@ -30,5 +65,10 @@ class NetworkManager: NSObject {
             }
             completion(nil,nil)
         }
+    }
+    
+    func fetchProfiles(completion: @escaping RequestCompletion, parameters:Parameters) {
+        let urlString = self.apiBaseURL
+        self.performRequest(urlString: urlString, parameters: parameters, completion: completion)
     }
 }
