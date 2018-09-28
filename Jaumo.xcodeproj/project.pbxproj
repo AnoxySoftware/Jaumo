@@ -10,11 +10,17 @@
 		3249D56E031E61902ADBFE4D /* Pods_JaumoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE383D4B8BDA0FCFE4543C3E /* Pods_JaumoTests.framework */; };
 		7A6FCD2276FF65FA95287865 /* Pods_Jaumo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CEA9B375AC08B91F5CD680B /* Pods_Jaumo.framework */; };
 		E6783D92215E3A6100042193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6783D91215E3A6100042193 /* AppDelegate.swift */; };
-		E6783D94215E3A6100042193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6783D93215E3A6100042193 /* ViewController.swift */; };
+		E6783D94215E3A6100042193 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6783D93215E3A6100042193 /* ProfileViewController.swift */; };
 		E6783D97215E3A6100042193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6783D95215E3A6100042193 /* Main.storyboard */; };
 		E6783D99215E3A6300042193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6783D98215E3A6300042193 /* Assets.xcassets */; };
 		E6783D9C215E3A6300042193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6783D9A215E3A6300042193 /* LaunchScreen.storyboard */; };
 		E6783DA7215E3A6300042193 /* JaumoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6783DA6215E3A6300042193 /* JaumoTests.swift */; };
+		E6FEEEF7215E484F00A00FBE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEEF6215E484F00A00FBE /* DetailViewController.swift */; };
+		E6FEEEFB215E48EB00A00FBE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEEFA215E48EB00A00FBE /* NetworkManager.swift */; };
+		E6FEEEFF215E4AE400A00FBE /* PanDismissableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEEFE215E4AE400A00FBE /* PanDismissableVC.swift */; };
+		E6FEEF02215E4B4200A00FBE /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF00215E4B4200A00FBE /* SwipeAnimator.swift */; };
+		E6FEEF03215E4B4200A00FBE /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF01215E4B4200A00FBE /* Interactor.swift */; };
+		E6FEEF06215E4EE500A00FBE /* PanDismissablePresenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEF05215E4EE500A00FBE /* PanDismissablePresenterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,7 @@
 		D142B834B03C1ADB1D982990 /* Pods-JaumoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaumoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JaumoTests/Pods-JaumoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E6783D8E215E3A6100042193 /* Jaumo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jaumo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6783D91215E3A6100042193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6783D93215E3A6100042193 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6783D93215E3A6100042193 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E6783D96215E3A6100042193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6783D98215E3A6300042193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6783D9B215E3A6300042193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +49,12 @@
 		E6783DA2215E3A6300042193 /* JaumoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaumoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6783DA6215E3A6300042193 /* JaumoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaumoTests.swift; sourceTree = "<group>"; };
 		E6783DA8215E3A6300042193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FEEEF6215E484F00A00FBE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E6FEEEFA215E48EB00A00FBE /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E6FEEEFE215E4AE400A00FBE /* PanDismissableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanDismissableVC.swift; sourceTree = "<group>"; };
+		E6FEEF00215E4B4200A00FBE /* SwipeAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeAnimator.swift; sourceTree = "<group>"; };
+		E6FEEF01215E4B4200A00FBE /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		E6FEEF05215E4EE500A00FBE /* PanDismissablePresenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanDismissablePresenterVC.swift; sourceTree = "<group>"; };
 		FE383D4B8BDA0FCFE4543C3E /* Pods_JaumoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JaumoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -99,9 +111,11 @@
 			isa = PBXGroup;
 			children = (
 				E6783D91215E3A6100042193 /* AppDelegate.swift */,
-				E6783D93215E3A6100042193 /* ViewController.swift */,
-				E6FEEEF5215E3D4100A00FBE /* Stiryboard & Assets */,
 				E6783D9D215E3A6300042193 /* Info.plist */,
+				E6FEEEF9215E48D900A00FBE /* Network */,
+				E6FEEEFD215E4A0200A00FBE /* Helpers */,
+				E6FEEEF8215E486500A00FBE /* ViewControllers */,
+				E6FEEEF5215E3D4100A00FBE /* Storyboard & Assets */,
 			);
 			path = Jaumo;
 			sourceTree = "<group>";
@@ -115,14 +129,66 @@
 			path = JaumoTests;
 			sourceTree = "<group>";
 		};
-		E6FEEEF5215E3D4100A00FBE /* Stiryboard & Assets */ = {
+		E6FEEEF5215E3D4100A00FBE /* Storyboard & Assets */ = {
 			isa = PBXGroup;
 			children = (
 				E6783D98215E3A6300042193 /* Assets.xcassets */,
 				E6783D95215E3A6100042193 /* Main.storyboard */,
 				E6783D9A215E3A6300042193 /* LaunchScreen.storyboard */,
 			);
-			path = "Stiryboard & Assets";
+			path = "Storyboard & Assets";
+			sourceTree = "<group>";
+		};
+		E6FEEEF8215E486500A00FBE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEEF08215E5B4300A00FBE /* Animation controllers */,
+				E6FEEEFC215E49CA00A00FBE /* Cells & Views */,
+				E6783D93215E3A6100042193 /* ProfileViewController.swift */,
+				E6FEEEF6215E484F00A00FBE /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E6FEEEF9215E48D900A00FBE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEEEFA215E48EB00A00FBE /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E6FEEEFC215E49CA00A00FBE /* Cells & Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Cells & Views";
+			sourceTree = "<group>";
+		};
+		E6FEEEFD215E4A0200A00FBE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEEF04215E4B4600A00FBE /* Animations */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E6FEEF04215E4B4600A00FBE /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEEF00215E4B4200A00FBE /* SwipeAnimator.swift */,
+				E6FEEF01215E4B4200A00FBE /* Interactor.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		E6FEEF08215E5B4300A00FBE /* Animation controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEEEFE215E4AE400A00FBE /* PanDismissableVC.swift */,
+				E6FEEF05215E4EE500A00FBE /* PanDismissablePresenterVC.swift */,
+			);
+			path = "Animation controllers";
 			sourceTree = "<group>";
 		};
 		EEAB75B99EE7AD6CF4EFB106 /* Pods */ = {
@@ -301,7 +367,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6783D94215E3A6100042193 /* ViewController.swift in Sources */,
+				E6FEEEFB215E48EB00A00FBE /* NetworkManager.swift in Sources */,
+				E6FEEF02215E4B4200A00FBE /* SwipeAnimator.swift in Sources */,
+				E6FEEF06215E4EE500A00FBE /* PanDismissablePresenterVC.swift in Sources */,
+				E6FEEEFF215E4AE400A00FBE /* PanDismissableVC.swift in Sources */,
+				E6FEEEF7215E484F00A00FBE /* DetailViewController.swift in Sources */,
+				E6783D94215E3A6100042193 /* ProfileViewController.swift in Sources */,
+				E6FEEF03215E4B4200A00FBE /* Interactor.swift in Sources */,
 				E6783D92215E3A6100042193 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
