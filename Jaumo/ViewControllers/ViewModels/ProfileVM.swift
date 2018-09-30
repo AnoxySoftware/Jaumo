@@ -47,7 +47,7 @@ class ProfileVM : NSObject {
         return self.profiles.count > 0
     }
     
-    func setProfiles(profilesArray:[ProfileElement]) {
+    private func setProfiles(profilesArray:[ProfileElement]) {
         self.profiles = profilesArray
     }
     

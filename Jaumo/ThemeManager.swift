@@ -8,17 +8,9 @@
 
 import UIKit
 
-extension UIButton {
-    @objc dynamic var cornerRadius: CGFloat {
-        get { return layer.cornerRadius }
-        set { layer.cornerRadius = newValue }
-    }
-}
-
 class ThemeManager {
     class func applyDefaultTheme() {
-        UIButton.appearance().cornerRadius = 6;
+        UIButton.appearance().layer.cornerRadius = 6
         UIButton.appearance().tintColor = UIColor.white
     }
-    
 }

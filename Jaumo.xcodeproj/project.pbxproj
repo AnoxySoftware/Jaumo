@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3249D56E031E61902ADBFE4D /* Pods_JaumoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE383D4B8BDA0FCFE4543C3E /* Pods_JaumoTests.framework */; };
 		7A6FCD2276FF65FA95287865 /* Pods_Jaumo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CEA9B375AC08B91F5CD680B /* Pods_Jaumo.framework */; };
+		E675F5882160BE430080493C /* mockData.json in Resources */ = {isa = PBXBuildFile; fileRef = E675F5872160BE430080493C /* mockData.json */; };
 		E6783D92215E3A6100042193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6783D91215E3A6100042193 /* AppDelegate.swift */; };
 		E6783D94215E3A6100042193 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6783D93215E3A6100042193 /* ProfileViewController.swift */; };
 		E6783D97215E3A6100042193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6783D95215E3A6100042193 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		982D0FDD457E0671E4037A5F /* Pods-JaumoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaumoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JaumoTests/Pods-JaumoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		995EAAFF65137D4EC83A9B31 /* Pods-Jaumo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jaumo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jaumo/Pods-Jaumo.release.xcconfig"; sourceTree = "<group>"; };
 		D142B834B03C1ADB1D982990 /* Pods-JaumoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaumoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JaumoTests/Pods-JaumoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E675F5872160BE430080493C /* mockData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockData.json; sourceTree = "<group>"; };
 		E6783D8E215E3A6100042193 /* Jaumo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jaumo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6783D91215E3A6100042193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6783D93215E3A6100042193 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		E6783DA5215E3A6300042193 /* JaumoTests */ = {
 			isa = PBXGroup;
 			children = (
+				E675F5872160BE430080493C /* mockData.json */,
 				E6783DA6215E3A6300042193 /* JaumoTests.swift */,
 				E6783DA8215E3A6300042193 /* Info.plist */,
 			);
@@ -336,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E675F5882160BE430080493C /* mockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

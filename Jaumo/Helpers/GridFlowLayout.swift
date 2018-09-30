@@ -9,14 +9,9 @@
 import UIKit
 
 class GridFlowLayout : UICollectionViewFlowLayout {
-    private var firstSetupDone = false
-    
     override func prepare() {
         super.prepare()
-        if !firstSetupDone {
-            firstSetupDone = true
-            setup()
-        }
+        setup()
     }
     
     private func setup() {
