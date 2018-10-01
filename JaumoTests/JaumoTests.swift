@@ -89,4 +89,23 @@ class JaumoTests: XCTestCase {
         }
     }
     
+    func testDataFetch() {
+        let expectation = XCTestExpectation(description: "Download Data")
+        
+        NetworkManager.shared.fetchProfiles(completion: { (data, error) in
+            XCTAssertNotNil(data, "No data was downloaded.")
+            XCTAssertNil(error,"Error fetching data")
+            
+            let profileVM = ProfileVM()
+            profileVM.parseData(data: data!, completion: { (error) in
+                XCTAssertNil(error,"Error parsing the JSON Data")
+                XCTAssertEqual(profileVM.hasData(),true)
+                XCTAssertEqual(profileVM.numberOfItemsInSection(section: 0),10)
+            })
+            
+            expectation.fulfill()
+        }, parameters: ["amount" : 10, "gender": "female", "ext" : 1])
+        
+        wait(for: [expectation], timeout: 10.0)
+    }
 }

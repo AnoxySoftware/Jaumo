@@ -10,8 +10,8 @@ import UIKit
 import Alamofire
 
 class ProfileViewController: PanDismissablePresenterVC, LoadingViewPresentable {
-    
-    let profileVM = ProfileVM()
+
+    private let profileVM = ProfileVM()
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
